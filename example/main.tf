@@ -5,7 +5,7 @@ provider "equinix" {
 
 module "cloudguard" {
   source               = "equinix/cloudguard/equinix"
-  version              = "1.0.0-beta"
+  version              = "1.0.0"
   name                 = "tf-cloudguard"
   hostname             = "cg-pri"
   metro_code           = var.metro_code_primary
